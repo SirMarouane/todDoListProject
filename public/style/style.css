@@ -118,6 +118,7 @@ h1 {
     font-style: italic;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     outline: none;
+    
 }
 
 .addText input:focus::placeholder {
@@ -140,7 +141,7 @@ h1 {
 
 .newDiv {
     height: 150px;
-    width: 250px;
+    width: auto;
     padding: 10px;
 
     /* background-color: #FF8C61; */
@@ -149,6 +150,7 @@ h1 {
 
     display: flex;
     align-items: center;
+    
 }
 
 .newDiv p {
@@ -176,6 +178,7 @@ h1 {
     background-color: #2e86ab15;
 
     outline: none;
+    overflow: hidden;
 }
 
 .buttonValid {
